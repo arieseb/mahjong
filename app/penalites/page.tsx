@@ -159,7 +159,7 @@ export default function Page() {
               pioche, il peut demander l&apos;annulation de la donne. Il peut aussi tenter&nbsp;
               <Link 
                 key="Yakuman" 
-                href="/yakuman" 
+                href="/yaku/yakuman" 
                 className="text-green-400 hover:text-yellow-400 font-bold"
               >
                 <em className="link">Kokushi Musou</em> (Les Treize Orphelins)

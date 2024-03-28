@@ -156,7 +156,7 @@ export default function Page() {
               Si la main a été remportée sur <em>tsumo</em> et que le yaku&nbsp;
               <Link 
                 key="1 Han" 
-                href="/1han" 
+                href="/yaku/1han" 
                 className="text-green-400 hover:text-yellow-400 font-bold"
               >
                 <em className="link">Pinfu</em>
@@ -173,7 +173,7 @@ export default function Page() {
         </div>
         <p>
           Gagner avec le yaku&nbsp;
-          <Link key="2 Han" href="/2han" className="text-green-400 hover:text-yellow-400 font-bold">
+          <Link key="2 Han" href="/yaku/2han" className="text-green-400 hover:text-yellow-400 font-bold">
               <em className="link">Chiitoitsu</em> (Sept Paires)
           </Link>
           &nbsp;rapporte la valeur forfaitaire de 25 <em>Fu</em> et n&apos;est jamais arrondie.
