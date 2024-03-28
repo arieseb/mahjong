@@ -84,7 +84,7 @@ export default function Home() {
         </div>
         <div className="flex max-[1755px]:flex-col items-center justify-between my-2">
           <p className="me-4 max-[1755px]:self-start min-[1755px]:mb-1">
-            Parmi ces famille, on peut trouver un exemplaire d&apos;un cinq rouge
+            Parmi ces familles, on peut trouver un exemplaire d&apos;un cinq rouge
             <span className="hidden min-[278px]:inline"> :</span>
           </p>
           <div className="flex gap-1">

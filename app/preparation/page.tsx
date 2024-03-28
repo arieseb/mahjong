@@ -39,8 +39,8 @@ export default function Page() {
       <Card title="Distribution des tuiles" style="none">
         <p className="mb-2">
           A partir de la gauche de la brèche, Est prend les 4 premières tuiles (un carré de 2x2 tuiles), 
-          Sud en prend 4 de la même manière, puis Ouest, puis Nord jusque tous les joueurs aient 12 
-          tuiles.
+          Sud en prend 4 de la même manière, puis Ouest, puis Nord jusqu&apos;à ce que tous les 
+          joueurs aient 12 tuiles.
         </p>
         <p>
           Enfin, Est prend ses 2 dernières tuiles (La première et la troisième de la rangée supérieure) 
