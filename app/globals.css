@@ -3,16 +3,23 @@
 @tailwind utilities;
 
 :root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 0, 35, 15;
+  --background-end-rgb: 0, 56, 25;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+    --background-start-rgb: 0, 35, 15;
+    --background-end-rgb: 0, 56, 25;
+  }
+}
+
+@media print {
+  :root {
+    --foreground-rgb: 0, 0, 0;
+    --background-rgb: 255, 255, 255;
   }
 }
 
@@ -29,5 +36,21 @@ body {
 @layer utilities {
   .text-balance {
     text-wrap: balance;
+  }
+}
+
+em:not(.link) {
+  color: #e5b625;
+  font-weight: bold;
+}
+
+@media print {
+  body {
+    color: rgb(var(--foreground-rgb));
+    background: rgb(var(--background-rgb))
+  }
+  em:not(.link), .text-green-400 {
+    color: rgb(234, 88, 12);
+    font-weight: bold;
   }
 }
